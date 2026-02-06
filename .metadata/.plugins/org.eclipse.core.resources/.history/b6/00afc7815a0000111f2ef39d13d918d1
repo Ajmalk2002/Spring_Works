@@ -1,0 +1,4 @@
+spring.application.name=SpELDemo
+
+
+server.port = 9999

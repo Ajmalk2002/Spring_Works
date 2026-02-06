@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import java.util.List;
+
+public class EmployeeController {
+
+	private final EmployeeDao employeeDao;
+	
+	public EmployeeController(EmployeeDao employeeDao) {
+		this.employeeDao= employeeDao;
+	}
+	
+	public List<Employee> getmployees()
+	{
+		return employeeDao.getallEmployees();
+	}
+}

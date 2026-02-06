@@ -1,0 +1,16 @@
+package com.example.demo;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import javax.swing.tree.RowMapper;
+
+public class EmployeeRowMapper implements RowMapper<Employee>{
+	
+	@
+	public Employee mapRow(ResultSet rs, int rowNum) throws SQLException{
+		
+	}
+	
+
+}

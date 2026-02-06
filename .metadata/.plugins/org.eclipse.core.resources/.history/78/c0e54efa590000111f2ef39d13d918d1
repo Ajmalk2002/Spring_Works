@@ -1,0 +1,16 @@
+package com.example.demo;
+
+public class EmployeeController {
+	
+	private final EmployeeService employeeService;
+
+	public EmployeeController(EmployeeService employeeService) {
+		this.employeeService = employeeService;
+	}
+
+	@GetMapping("/employee")
+	public String getemployee() {
+		return employeeService.getemployeeDetails();
+	}
+
+}

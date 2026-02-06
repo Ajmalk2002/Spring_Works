@@ -1,0 +1,17 @@
+package com.example.demo;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.springframework.
+
+public class EmployeeRowMapper implements RowMapper<Employee>{
+	
+	@Override
+	public Employee mapRowEmployee(ResultSet rs, int rowNum) throws SQLException{
+		Employee emp = new Employee();
+		
+	}
+	
+
+}
