@@ -1,7 +1,0 @@
-package com.example.demo;
-
-import org.springframework.jdbc.core.RowMapper;
-
-public class EmployeeRowMapper  implements RowMapper<Employee> {
-
-}
