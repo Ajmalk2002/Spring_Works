@@ -31,6 +31,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\spring_works\mvc-demo2"/>
 			<item value="E:\e_commerce_practice_spring"/>
 			<item value="D:\spring_works\e-commerce-demo"/>
 			<item value="E:\RevatureCTS-SpringBootAPI"/>
