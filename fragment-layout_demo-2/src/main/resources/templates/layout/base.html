@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"  th:fragment="layout(content, pageTitle)">
+
+<head>
+	<title th:text="${pageTitle}">fragment demo</title>
+	<link rel="stylesheet" th:href="@{/css/style.css}">
+</head>	
+<body style="font-family: Arial, Helvetica, sans-serif; margin: 200px;">
+	<div th:replace="fragments/header :: siteHeader"></div>
+	<div th:replace="fragments/navbar :: siteNav"></div>
+	<main th:replace="${content}"></main>
+	
+	<div th:replace="fragments/footer :: siteFooter"></div>
+
+
+	
+</body>
+</html>

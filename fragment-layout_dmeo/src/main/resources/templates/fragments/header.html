@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<body>
+	<div th:fragment="header(title)">
+		<header style="background-color: aliceblue;padding: 10px;">
+			<h2> My Spring Fragment and Layout demo <span th:text="${title}"></span></h2>
+			<a th:href="@{/}"> HOME</a> |
+			<a th:href="@{/about}"> ABOUT</a>
+
+		</header>
+	</div>
+</body>
+	
+</html>
