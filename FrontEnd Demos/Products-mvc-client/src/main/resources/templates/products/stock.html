@@ -6,6 +6,9 @@
     body{font-family:Arial;margin:20px}
     input{padding:6px;width:200px}
   </style>
+  
+  <div th:replace="fragments/header :: siteHeader"></div>
+  
 </head>
 <body>
 
@@ -23,6 +26,9 @@
   <button type="submit">Update Stock</button>
   <a th:href="@{/products}">Back</a>
 </form>
+
+<div th:replace="fragments/footer :: siteFooter"></div>
+
 
 </body>
 </html>

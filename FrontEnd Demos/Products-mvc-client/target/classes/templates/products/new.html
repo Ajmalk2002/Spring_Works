@@ -8,6 +8,9 @@
     input{padding:6px;width:300px}
     .err{color:red;font-size:13px}
   </style>
+  
+  <div th:replace="fragments/header :: siteHeader"></div>
+  
 </head>
 <body>
 
@@ -30,6 +33,9 @@
   <button type="submit">Save</button>
   <a th:href="@{/products}">Back</a>
 </form>
+
+<div th:replace="fragments/footer :: siteFooter"></div>
+
 
 </body>
 </html>

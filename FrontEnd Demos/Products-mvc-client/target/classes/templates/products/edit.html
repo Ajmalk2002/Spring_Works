@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+th:replace="~{layouts/main :: layout(~{:: section},'Edit Products')}">
+
 <head>
   <title>Edit Product</title>
-  <style>
-    body{font-family:Arial;margin:20px}
-    label{display:block;margin-top:10px}
-    input{padding:6px;width:300px}
-    .err{color:red;font-size:13px}
-  </style>
+  
+  
 </head>
 <body>
-
+<section class="card">
 <h2>Edit Product</h2>
 
 <form th:action="@{/products/{id}/edit(id=${id})}" th:object="${product}" method="post">
@@ -31,6 +29,8 @@
   <button type="submit">Update</button>
   <a th:href="@{/products}">Cancel</a>
 </form>
+
+</section>
 
 </body>
 </html>
